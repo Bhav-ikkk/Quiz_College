@@ -164,7 +164,7 @@ export default function TeacherDashboard() {
     }
   }
 
-  const handleDeleteQuiz = async (quizId) => {
+   const handleDeleteQuiz = async (quizId) => {
     try {
       await fetch(`/api/quizzes/${quizId}`, {
         method: "DELETE",
